@@ -38,7 +38,7 @@
             var calculadora = new Calculadora();
 
             // Act
-            var resultado = calculadora.dividir(2, 2);
+            var resultado = calculadora.Dividir(2, 2);
 
             // Assert
             Assert.Equal(1, resultado);
