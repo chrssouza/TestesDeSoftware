@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace Demo.Tests
 {
     public class AssertNumbersTests
@@ -16,7 +14,7 @@ namespace Demo.Tests
             // Assert
             Assert.Equal(3, result);
         }
-        
+
         [Fact]
         public void Calculadora_Somar_NaoDeveSerIgual()
         {

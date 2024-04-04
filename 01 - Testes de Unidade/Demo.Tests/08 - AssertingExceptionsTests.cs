@@ -1,6 +1,3 @@
-using System;
-using Xunit;
-
 namespace Demo.Tests
 {
     public class AssertingExceptionsTests

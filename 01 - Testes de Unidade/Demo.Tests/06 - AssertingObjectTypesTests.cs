@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace Demo.Tests
 {
     public class AssertingObjectTypesTests
@@ -13,7 +11,7 @@ namespace Demo.Tests
             // Assert
             Assert.IsType<Funcionario>(funcionario);
         }
-        
+
         [Fact]
         public void FuncionarioFactory_Criar_DeveRetornarTipoDerivadoPessoa()
         {

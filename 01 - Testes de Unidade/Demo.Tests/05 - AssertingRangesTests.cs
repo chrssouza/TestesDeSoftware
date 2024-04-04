@@ -1,6 +1,3 @@
-using Xunit;
-using Xunit.Abstractions;
-
 namespace Demo.Tests
 {
     public class AssertingRangesTests

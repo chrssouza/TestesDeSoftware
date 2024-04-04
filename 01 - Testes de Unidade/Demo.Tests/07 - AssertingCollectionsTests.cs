@@ -1,5 +1,3 @@
-using Xunit;
-
 namespace Demo.Tests
 {
     public class AssertingCollectionsTests
@@ -42,7 +40,7 @@ namespace Demo.Tests
             // Arrange & Act
             var funcionario = FuncionarioFactory.Criar("Eduardo", 15000);
 
-            var habilidadesBasicas = new []
+            var habilidadesBasicas = new[]
             {
                 "Lógica de Programação",
                 "OOP",
